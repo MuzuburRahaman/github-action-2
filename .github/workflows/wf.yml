@@ -43,3 +43,8 @@ jobs:
           docker --version
           docker ps
           docker
+
+      - name: to check files
+        run: |
+          pwd
+          ls
