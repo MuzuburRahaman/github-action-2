@@ -29,9 +29,6 @@ jobs:
       - name: to check java version
         run: java --version
 
-      - name: build with gradle
-        run: gradle build
-        
       - name: to check files
         run: |
           pwd
