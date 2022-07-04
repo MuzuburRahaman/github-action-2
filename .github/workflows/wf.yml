@@ -36,3 +36,11 @@ jobs:
         run: |
           pwd
           ls
+      - name: build with gradle
+        run: ./gradlew build
+
+      - name: to check docker install or not
+        run: |
+          docker --version
+          docker ps
+          docker
