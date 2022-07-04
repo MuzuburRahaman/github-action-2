@@ -31,3 +31,8 @@ jobs:
 
       - name: build with gradle
         run: gradle build
+        
+      - name: to check files
+        run: |
+          pwd
+          ls
